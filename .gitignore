@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# .env file chứa biến môi trường
+.env
+
+# Docker
+docker-compose.override.yml
+.docker/
+docker/*.tar
+
+# Redis data
+/redis_data/
+
+# Logs
+*.log
+
+# IDEs và Editor settings
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
